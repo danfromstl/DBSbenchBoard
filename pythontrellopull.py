@@ -6,10 +6,10 @@ from trello import TrelloClient
 
 # this method is unused at the moment
 client = TrelloClient(
-    api_key='46007e98096a244d3e1113d66641ebb0',
-    api_secret='270e67673b1802abb66d06ab93f0a70c9d25734a74cd0787cbd615c6a8028212',
-    token='270e67673b1802abb66d06ab93f0a70c9d25734a74cd0787cbd615c6a8028212',
-    token_secret='ce9f404bf839edd7313c3750a0e66af28071e2ea8bd034cf2dd5a64bca6e7bfe'
+    api_key='key',
+    api_secret='secret',
+    token='token',
+    token_secret='secretToken'
 )
 
 def getMembersBoardsAndLists(memberId,memberApiKey,memberApiToken):
@@ -98,9 +98,9 @@ def pullCardsFromList(single_list_id):
 ############################
 
 
-dansMemberId = "5cfe9b644987be4c7ce494bf" # Dan's Member Id
-dansAPIkey = "46007e98096a244d3e1113d66641ebb0" # BenchBoards's API key
-dansAPItoken = "270e67673b1802abb66d06ab93f0a70c9d25734a74cd0787cbd615c6a8028212" # BenchBoards's API key
+dansMemberId = "id" # Dan's Member Id
+dansAPIkey = "key" # BenchBoards's API key
+dansAPItoken = "token" # BenchBoards's API key
 globalAPIcalls = 0
 boardAPIcalls = 0
 listAPIcalls = 0
